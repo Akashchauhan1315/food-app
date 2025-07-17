@@ -1,5 +1,5 @@
 {
-  "homepage" : "https://akashchauhan1315.github.io/food-app/",
+  "homepage": "https://akashchauhan1315.github.io/food-app/",
   "name": "food-app",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +15,7 @@
     "axios": "^1.8.4",
     "dotenv": "^16.5.0",
     "formik": "^2.4.6",
+    "gh-pages": "^6.3.0",
     "gsap": "^3.12.7",
     "jwt-decode": "^4.0.0",
     "lodash": "^4.17.21",
@@ -26,7 +27,7 @@
     "react-icons": "^5.5.0",
     "react-redux": "^9.2.0",
     "react-router-dom": "^7.5.2",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "redux-logger": "^3.0.6",
     "remixicon": "^4.6.0",
     "socket.io-client": "^4.8.1",
@@ -38,8 +39,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
